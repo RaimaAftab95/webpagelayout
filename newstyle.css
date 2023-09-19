@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap'); */
+
+
+/* when i change font family facebook icon change thatsy i comment it */
+*{
+    /* font-family: 'Skranji', cursive!important; */
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --theme-color:#788a7c;
+    --heading-color:#6ed198;
+    --gray-text-color:#6c757d;
+    --white-text:white;
+}
+
+
+.my-navbar-color {
+    background-color:var(--theme-color)!important;
+}
+
+
+.nav-link 
+{
+    color:var(--white-text)!important;
+}
+.navbar-brand
+{
+    color:white!important; 
+}
+.header-img
+{
+    background-image:url(images/nav-image.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ #banner_btn_1
+{
+    border:2px solid white;
+    text-align: center;
+    outline:none;
+    border-radius:0 ;
+    color: white;
+}
+
+#section1-btn
+{
+    border:2px solid #6c757d;
+    text-align: center;
+    outline:none;
+    border-radius:0 ;
+    color:var(--gray-text-color)!important;
+    width: max-content;
+    height: max-content;
+}
+.section2-bg-color
+{
+    background-color: var(--theme-color)!important;
+}
+.section2-heading
+{
+ color: var(--heading-color)!important;   
+}
+.section2-text-color
+{
+    color:var(--white-text)!important;
+}
+.text-color{
+    color:var(--gray-text-color)!important;
+}
+.icon-color {
+    color: white !important;;
+  }
+  
+  #submit_btn{
+    margin-left: 50%;
+    font-size: smaller;
+    background-color: var(--heading-color)!important;
+    border-radius:0!important ;
+}
+
+/* #submit_btn{
+    margin-left: 70%;
+    font-size: smaller;
+    background-color: #6ed198;
+    border-radius:0!important ;
+} */
