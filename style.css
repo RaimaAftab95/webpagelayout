@@ -62,8 +62,14 @@
   }
   .formstyle
   {
-    border-radius:0 ;
+    border-radius:0!important ;
     outline:none;
     border:2px solid white;
     box-shadow: none;
   }
+
+  #submit_btn{
+    margin-left: 68%;
+    font-size: smaller;
+    background-color: #6ed198;
+}
