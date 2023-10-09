@@ -69,7 +69,7 @@
   }
 
   #submit_btn{
-    margin-left: 50%;
+    /* margin-left: 50%; */
     font-size: smaller;
     background-color: #6ed198;
     border-radius:0!important ;
